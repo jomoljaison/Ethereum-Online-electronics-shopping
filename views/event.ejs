@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+</style>
+</head>
+<body bgcolor="#0000FF">
+
+      
+    <h2> <center>Events Details</h2>
+    <table id="events">
+        <tr>
+            <th>Sl.No</th>
+            <th>Transaction Hash</th>
+            <th>Block Number</th>
+
+            <th>Product Name</th>
+            <th>Product Height</th>
+            <th>Product Width</th>
+            <th>product Warranty</th>
+            <th>Owner</th>
+           
+        </tr>
+        <% 
+    eventArray.forEach(function(el, index) {
+  %>
+        <tr>
+
+            <td><%=el.id %></td>
+            <td><%=el.transactionhash %></td>
+            <td><%=el.blocknumber %></td>
+
+           <td><%=el.name %></td>
+            <td><%=el.height %></td>
+            <td><%=el.width %></td>
+             <td><%=el.warranty %></td>
+            <td><%=el.owner %></td>
+
+        </tr>
+        <%
+    
+  });
+  %>
+
+    </table></center>
+</body>
+
+</html>

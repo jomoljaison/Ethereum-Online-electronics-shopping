@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width:100%;
+}
+table, th, td {
+  /* border: 1px solid rgba(18, 6, 190, 0.616); */
+  border-collapse: collapse;
+  border: thick double #030153;
+}
+ th{
+    padding: 19px;
+    /* text-align: left; */
+
+ }td {
+  padding: 25px;
+text-align:center;
+}
+th{
+    background-color: rgb(219, 217, 210);
+}
+</style>
+</head>
+<body bgcolor="#0000FF">
+
+        <center>
+                <h1>Details of Product</h1>
+             
+              
+              <table >
+                <tr><th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Product Height</th>
+                    <th>Product width</th>
+                    <th>Product Warranty</th>
+                    <th>Product Other details</th>
+                    <th>Product Price</th> 
+                                      
+                </tr>
+                
+                <tr><td><img src="f.jpg" width="120" height="120"></td>
+                    <td><%= myData._productname %></td>
+                    <td><%= myData._productheight %></td>                              
+                    <td><%= myData._productwidth %></td>
+                    <td><%= myData._productwarranty %></td>
+                    <td><%= myData._productothers %></td>
+                    <td><%= myData._productprice %></td>
+                    
+                </tr>
+                               
+    </table>
+</body>
+
+</html>

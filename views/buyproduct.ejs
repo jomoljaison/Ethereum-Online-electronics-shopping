@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    input[type=text], select {
+      width: 40%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 40%;
+      background-color:#000080;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border-style: groove;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #000080;
+}
+ body
+ {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: rgb(251, 251, 251);
+ }
+ h1 {
+        font-size: 23pt;
+      }
+</style>
+</head>
+<body bgcolor="#0000FF">
+    
+    <h1> <center>Events Detail</center></h1>
+    <table id="events">
+        <tr>
+            <th>Image</th>
+            <th>Sl.No</th>
+            <th>Transaction Hash</th>
+            <th>Block Number</th>
+            <th>Product ID </th>
+            <th>Product Name</th>
+            <th>Product Height</th>
+            <th>Product Width</th>
+             <th>Price </th>
+            <th>Buyer </th>
+          
+
+           
+        </tr>
+        <% 
+    eventArray.forEach(function(el, index) {
+  %>
+        <tr>
+
+
+          <!-- "productid","productname","productheight","productwidth","productprice","productbuyer"}            -->
+          <td><img src="f.jpg" width="120" height="120"></td>
+
+            <td><%=el.id %></td>
+            <td><%=el.transactionhash %></td>
+            <td><%=el.blocknumber %></td>
+            <td><%=el.productid %></td>
+            <td><%=el.productname %></td>
+            <td><%=el.productheight %></td>
+            <td><%=el.productwidth %></td>
+             <td><%=el.productprice %></td>
+             <td><%=el.productbuyer %></td>
+          
+
+             
+            
+
+        </tr>
+        <%
+    
+  });
+  %>
+
+    </table>
+    <br>
+    <br>
+    
+
+
+</body>
+
+</html>
