@@ -59,39 +59,11 @@ In order to run this project locally in your computer you need the following pac
 
 Execution Flow:
 
-***Step 9:*** Go http://localhost:3006/, Enter the Product details
-		ex:
-			Product id:10102
-			Product name:Galaxy A31
-			Product height:16cm
-			Product width:7.5cm
-  			Product Warranty:1 year
-			Other Details:video playback with 5000mAh battery (15W FastCharging)
-			Product price:15
+***Step 9:*** Go http://localhost:3006/
 
-		Click Submit button
-
-***Step 10:***  Buy the products by giving productid,product amount and buyer address
-	      ex:
-			Product id:10102
-			Buyer address:0xa1376d1158BdAaE5EE8Be49d9eeb2BbG03DFECcf
-			Product price:15
-
-***Step 11:*** Search Products uing Productid
-	     ex:
-			Product id:10102
-
+		
 
 
 
 			
-***Step 12:*** Product owner can withdraw fund by the address of buyer and productid
-	     ex:
-			Product id:10102
-			Buyer address:0xa1376d1158BdAaE5EE8Be49d9eeb2Bb1B3DFECcf
-	
-***Step 13:*** Block events  : Trigger events while adding product to blockchain
-
-***Step 14:*** Buyproduct Blockevents  :  Trigger events while buying a products
-
-
+ 
