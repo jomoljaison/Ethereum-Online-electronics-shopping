@@ -57,7 +57,6 @@ In order to run this project locally in your computer you need the following pac
 
        <command> :  npm start  
 
-Execution Flow:
 
 ***Step 9:*** Go http://localhost:3006/
 
