@@ -31,11 +31,19 @@ In order to run this project locally in your computer you need the following pac
 
 
 ***Step 4***Open ganache
-	Create new workspace
+
+		Create new workspace
+		
+		
 		1.Workspace name : SamsungContarct
+		
 		2.Server : Hostname------  127.0.0.1-lo
+		
 			      Port Number---- 8545
+			      
 			      Network ID----- 4002
+			      
+			      
 		3.Save workspace
 
 ***Step 5***Change coinbase address in app.js
