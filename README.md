@@ -1,4 +1,4 @@
-****Project name:	Ethereum Samsung****
+****Project name:	Ethereumarketpale****
 
 The dapp Ethereum Samsung that runs on the blockchain. It allows Product owner to list Products for sale, it also allows people to buy product using their  account ether .Whenever someone buy the product, they instantly become the product owner. That’s because this application is  by a smart contract on the blockchain which manages the products. It tracks who owns the product for sale, and it transfers the ownership of the items automatically anytime someone buys them.
 Two modules:---
